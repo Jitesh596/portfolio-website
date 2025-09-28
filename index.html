@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
 </head>
-<body>
+<body style="background-color: lightgray;">
     <h1><strong>Jitesh Kumar</strong></h1>
 
     <header>
@@ -24,7 +24,7 @@
         <h2>Welcome To My Portfolio</h2>
         <p>Hello! I'm Jitesh Kumar, a passionate web developer.</p><br>
         <h3>About Me</h3>
-        <img src="profile.jpg" alt="Logo">
+        <img src="profile.jpg" alt="Logo" style="width: 220px; height: =180px; border-radius: 50%;">
         <ul>
             <li>I build clean and intuitive web interfaces.</li>
             <li>I love writing code that works well on phones and computers.</li>
@@ -34,6 +34,20 @@
         </ul>
     </section>
     
+
+    <section id="projects">
+    <hr>
+    <h2>My Projects</h2>
+
+    
+        <ul>           
+            <li><strong>Portfolio Website:</strong>A personal one-page website to showcase your bio, skills, and contact details.</li>         
+            <li><strong>Medium clone: </strong> A simple blog layout that looks like Medium, built only with HTML and CSS.</li>       
+            <li><strong>Birthday Card: </strong> A creative greetng card webpage designed with HTML and CSS styling.</li>
+            <li><strong>User Form: </strong>A form Webpage with fields like name, email, and message for practicing from handling.</li>
+        </ul>
+    </section>
+
 
     <section id="skills">
         <hr>
@@ -59,15 +73,6 @@
     </section>
 
 
-    <section id="projects">
-        <hr>
-        <h2>My Projects</h2>
-        <ul>
-            <li>Personal Portfolio Website</li>
-        </ul>
-    </section>
-
-
     <section id="contact">
         <hr>
         <h2>Contact Me</h2>
@@ -80,9 +85,23 @@
 
             <label>Message:</label>
             <textarea name="message" id="message" placeholder="Enter Your Message" required></textarea><br><br>
+            
+            <label>Gender: </label>
+            
+            <label>&nbsp;&nbsp;Male</label>
+            <input type="radio">
+
+            <label>Female</label>
+            <input type="radio"><br><br>
 
             <button type="submit">Send Message</button>
         </form>
     </section>
+
+
+    <footer>
+        <br><p>&copy; 2025 Jitesh Kumar. All rights reserved.</p>
+    </footer>
+
 </body>
 </html>
